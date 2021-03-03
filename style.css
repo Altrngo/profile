@@ -28,7 +28,7 @@ font-family: 'Poppins', sans-serif;;
 
 a:hover {
   background-color: #A1A5CE;
-  transition: 0.5s;
+  transition: 0.5s
 }
 
 .link {
@@ -42,6 +42,7 @@ background: #353347;
 box-shadow: 0 10px 20px rgba(0,0,0,.1);
 width: 800px;
 text-align: center;
+align-content: center;
 }
 
 
@@ -51,8 +52,8 @@ color:  #d1d2db;
 background-color: #595676;
 font-style: normal ;
 font-weight: bolder;
-padding: 10px 30px;
-margin: 40px;
+padding: 8px 30px;
+margin: 40px 20px;
 border: 20px;
 border-radius: 5px;
 }
@@ -74,7 +75,7 @@ border-radius: 5px;
   border-radius: 8px;
   box-shadow: 0 10px 20px rgba(0,0,0,.1);
   width: 800px;
-  height: 380px;
+  height: 360px;
   margin: 20px auto;
 }
 
@@ -87,6 +88,8 @@ border-radius: 5px;
 ul {
   list-style-type: none;
   padding-inline-start: unset;
+  margin: unset;
+  align-content:flex-start
 }
 
 li {
@@ -96,6 +99,11 @@ li {
   /* height: 10px;
   width: 10px; */
   align-self: center;
+}
+
+.network_icon {
+  display: flex;
+  align-content: center;
 }
 
 i {
